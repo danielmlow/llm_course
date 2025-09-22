@@ -1,0 +1,8 @@
+/data/input/*
+/data/output/*
+/data/manuscript/*
+!/data/input/.empty
+!/data/output/.empty
+!/data/manuscript/.empty
+.DS_Store
+*keys.py
