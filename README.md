@@ -2,11 +2,17 @@
 
 This repository contains tutorials and scripts for working with Large Language Models (LLMs), natural language processing, and text analysis.
 
-## Virtual Environment
 
-Virtual Environment: `llm_course`
 
 ## Tutorials (Jupyter Notebooks)
+
+### 🔒 `deidentification.py`
+**Text De-identification using Presidio**
+- Remove personally identifiable information (PII) from text
+- Uses Microsoft Presidio Analyzer and Anonymizer
+- Detects and anonymizes names, phone numbers, and other sensitive data
+- Leverages spaCy's NLP models for entity recognition
+- Batch processing support with progress tracking using tqdm
 
 ### 📊 `openrouter_api.ipynb`
 **Measure constructs using LLMs**
@@ -55,16 +61,6 @@ Virtual Environment: `llm_course`
 - Save Reddit data to structured formats for analysis
 - Includes rate limiting and error handling
 
-## Scripts
-
-### 🔒 `deidentification.py`
-**Text De-identification using Presidio**
-- Remove personally identifiable information (PII) from text
-- Uses Microsoft Presidio Analyzer and Anonymizer
-- Detects and anonymizes names, phone numbers, and other sensitive data
-- Leverages spaCy's NLP models for entity recognition
-- Batch processing support with progress tracking using tqdm
-
 ### 🔑 `api_keys.py`
 **API Key Configuration**
 - Stores API keys for various services (OpenRouter, Reddit, etc.)
@@ -76,9 +72,9 @@ Virtual Environment: `llm_course`
 ### `data/output/`
 - `openrouter_results.csv` - Results from LLM API calls
 
-## Getting Started
+## Getting Started running on your local computer
 
-1. Create and activate the virtual environment:
+1. Open terminal, create and activate the virtual environment:
 ```bash
 python -m venv llm_course
 source llm_course/bin/activate  # On macOS/Linux
@@ -99,16 +95,7 @@ python -m spacy download es_core_news_sm
 
 3. Configure API keys in `api_keys.py` (if needed)
 
-4. Open Jupyter notebooks:
-```bash
-jupyter notebook
-```
+4. Open Jupyter notebooks
 
-## Notes
-
-- All notebooks include Colab badges for easy running in Google Colab
-- Spanish tutorials are fully bilingual with Spanish content and explanations
-- GPU acceleration is recommended for transformer models (can be enabled in Colab)
-- Remember to keep API keys secure and never commit them to version control
 
 
