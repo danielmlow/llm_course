@@ -22,6 +22,9 @@ This repository contains tutorials and scripts for working with Large Language M
 - Save results to CSV for further analysis
 - Includes error handling and batch processing examples
 
+
+GUI version (in progress): https://huggingface.co/spaces/freymon-perez/construct_encoding_demo
+
 ### 🔗 `embeddings_tutorial.ipynb`
 - Generate text embeddings using Spanish transformer models (sentence-transformers)
 - Apply UMAP for dimensionality reduction to visualize in 2D
@@ -60,6 +63,9 @@ This repository contains tutorials and scripts for working with Large Language M
 - Extract metadata including timestamps, scores, and author information
 - Save Reddit data to structured formats for analysis
 - Includes rate limiting and error handling
+
+### Discover constructs 
+GUI version (in progress): https://huggingface.co/spaces/freymon-perez/groupNLPExplanations
 
 ### 🔑 `api_keys.py`
 **API Key Configuration**
