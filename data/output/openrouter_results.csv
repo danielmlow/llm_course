@@ -1,0 +1,6 @@
+sentence,desire to escape_score,desire to escape_explanation,suicidal ideation_score,suicidal ideation_explanation,anxiety_score,anxiety_explanation,loneliness_score,loneliness_explanation
+1_suicidewatch,0,[],1,['ready to stop existing'],0,[],0,[]
+2_anxiety,0,[],0,[],1,"['anxiety', 'on edge', 'fear']",0,[]
+3_anxiety,0,[],0,[],1,"['GAD', 'debilitating anxiety', 'anxiety', 'worried']",0,[]
+4_anxiety,0,[],0,[],1,"['Anxiety', 'anxiety', 'anxious', 'anxiety']",0,[]
+5_suicidewatch,0,[],1,['kill me'],0,[],0,[]
