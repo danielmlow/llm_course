@@ -69,8 +69,26 @@ This repository contains tutorials and scripts for working with Large Language M
 
 ## Data
 
+### `data/input/`
+Codebooks
+- `suicide_risk_lexicon_codebook_prototypical_examples.txt` from the Suicide Risk Lexicon
+- `meditation_codebook.txt` Created one with GPT-5 
+
+Datasets
+- `reddit_df_subset_random_2500.csv` 2500 posts from Mindfulness, ADHD, Lonely, and Anxiety subreddits, a subset of this dataset `https://mair.sites.fas.harvard.edu/datasets/rmhd_27subreddits_1300posts_train.csv`
+- `meditation_interview_gpt5.txt`  generated an interview with GPT-5 on the meditation experience of a person
+- `data/input/datasets/goemotions_200-447.csv` a subset of Google's GoEmotions dataset (single sentences from Reddit labelled by humans for 28 emotions) with this prompt:
+    ```
+    Create a codebook like this one but for about 20-30 constructs relevant to mindfulness (positive and negative affect, 5 hindrances, insight, some mental health symptoms, barriers, etc (these include definitions and examples of things people might say in first person), list one under the other without bullet points or blank lines, one line per construct:
+
+Impulsive: A predisposition toward rapid, unplanned reactions to internal or external stimuli without regard to the negative consequences of these reactions to the impulsive individuals or to others. Examples: act on impulses; act without thinking; impulsive; impulsivity; rash decision; reckless; say things without thinking; snap decision; spur of the moment; urge
+Defeated and feeling like a failure: The perception of a failed struggle, feelings of powerlessness and a sense of losing social status or missing personal goals. Examples: I feel like a failure; I'm a failure; I'm a loser; am powerless; crushed; defeated; demoralized; feel powerless; humiliated; inferior
+    ```
+
+
+
 ### `data/output/`
-- `openrouter_results.csv` - Results from LLM API calls
+- `openrouter_results.csv` - Results from LLM API calls on Reddit data
 
 ## Getting Started running on your local computer
 
